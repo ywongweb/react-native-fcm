@@ -5,6 +5,10 @@
 #import "RCTEventDispatcher.h"
 #import "RCTUtils.h"
 
+@import FirebaseAnalytics;
+@import FirebaseInstanceID;
+@import FirebaseMessaging;
+
 @import UserNotifications;
 
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_8_0
